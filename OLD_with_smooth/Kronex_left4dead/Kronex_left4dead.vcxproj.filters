@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Cheats">
+      <UniqueIdentifier>{35280eaf-da30-460a-8d3d-575025b69026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Entities">
+      <UniqueIdentifier>{dcbab65a-03ee-4a6b-9178-6497edf0a53b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Cheats">
+      <UniqueIdentifier>{1285241c-c2f6-48ee-88db-d98d757f321b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Managers">
+      <UniqueIdentifier>{d30e19ba-c453-4e5c-8fc8-ccdb9e4c8ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Managers">
+      <UniqueIdentifier>{2c092b01-bed2-453d-9f9b-0c7cc5e54612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Entities">
+      <UniqueIdentifier>{5d581487-53dc-45bd-8725-4dcd5f63b7ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KronexMain.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Cheat.cpp">
+      <Filter>Файлы исходного кода\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_GlowHack.cpp">
+      <Filter>Файлы исходного кода\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_VisualHacks.cpp">
+      <Filter>Файлы исходного кода\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_BunnyHop.cpp">
+      <Filter>Файлы исходного кода\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CheatManager.cpp">
+      <Filter>Файлы исходного кода\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Player.cpp">
+      <Filter>Файлы исходного кода\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_Aimbot.cpp">
+      <Filter>Файлы исходного кода\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_EntityManager.cpp">
+      <Filter>Файлы исходного кода\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticFunctions.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_Ceiling.cpp">
+      <Filter>Файлы исходного кода\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_NoRecoil.cpp">
+      <Filter>Файлы исходного кода\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_RespInSurv.cpp">
+      <Filter>Файлы исходного кода\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_CameraHack.cpp">
+      <Filter>Файлы исходного кода\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_ESP.cpp">
+      <Filter>Файлы исходного кода\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_FakeLag.cpp">
+      <Filter>Файлы исходного кода\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_NoSpread.cpp">
+      <Filter>Файлы исходного кода\Cheats</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CONFIG.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_BunnyHop.h">
+      <Filter>Заголовочные файлы\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_GlowHack.h">
+      <Filter>Заголовочные файлы\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_VisualHacks.h">
+      <Filter>Заголовочные файлы\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Cheat.h">
+      <Filter>Заголовочные файлы\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CheatManager.h">
+      <Filter>Заголовочные файлы\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Player.h">
+      <Filter>Заголовочные файлы\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_Aimbot.h">
+      <Filter>Заголовочные файлы\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_EntityManager.h">
+      <Filter>Заголовочные файлы\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticFunctions.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="CONSTATNS.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_Ceiling.h">
+      <Filter>Заголовочные файлы\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_NoRecoil.h">
+      <Filter>Заголовочные файлы\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_RespInSurv.h">
+      <Filter>Заголовочные файлы\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_CameraHack.h">
+      <Filter>Заголовочные файлы\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_ESP.h">
+      <Filter>Заголовочные файлы\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_FakeLag.h">
+      <Filter>Заголовочные файлы\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_NoSpread.h">
+      <Filter>Заголовочные файлы\Cheats</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

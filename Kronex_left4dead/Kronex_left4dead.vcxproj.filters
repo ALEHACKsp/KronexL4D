@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="KronexSources">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="KronexSources\Cheats">
+      <UniqueIdentifier>{1285241c-c2f6-48ee-88db-d98d757f321b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KronexSources\Managers">
+      <UniqueIdentifier>{2c092b01-bed2-453d-9f9b-0c7cc5e54612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KronexSources\Entities">
+      <UniqueIdentifier>{5d581487-53dc-45bd-8725-4dcd5f63b7ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KronexSources\SDK">
+      <UniqueIdentifier>{aa5b5e5e-8d67-461f-ae1f-2f6e334837cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KronexSources\SDK\Engine">
+      <UniqueIdentifier>{2b22ac5e-b898-409c-be47-a44c337b703f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KronexSources\Hooks">
+      <UniqueIdentifier>{adf18418-27df-473e-be31-d3110f8dc373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KronexSources\Utils">
+      <UniqueIdentifier>{4fc634ff-feac-4f1c-bf6b-cfce5f79ac23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KronexSources\Main">
+      <UniqueIdentifier>{d6afff81-a877-4037-98be-126ca38992b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C_CH_Aimbot.cpp">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_AutoRespInSurv.cpp">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_BunnyHop.cpp">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_Ceiling.cpp">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_ESP.cpp">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_FakeLag.cpp">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_NoRecoil.cpp">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Cheat.cpp">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Player.cpp">
+      <Filter>KronexSources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>KronexSources\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_NameStealer.cpp">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_TeleportAndCrush.cpp">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>KronexSources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Patch.cpp">
+      <Filter>KronexSources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="C_VMTHook.cpp">
+      <Filter>KronexSources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="C_SHA256.cpp">
+      <Filter>KronexSources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware.cpp">
+      <Filter>KronexSources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_LicenseChecker.cpp">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_ConfigExecuter.cpp">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_VMTHookMgr.cpp">
+      <Filter>KronexSources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CheatMgr.cpp">
+      <Filter>KronexSources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CVarMgr.cpp">
+      <Filter>KronexSources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="C_EntityMgr.cpp">
+      <Filter>KronexSources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="C_PatchMgr.cpp">
+      <Filter>KronexSources\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="IVEngineClient.cpp">
+      <Filter>KronexSources\SDK\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="KronexMain.cpp">
+      <Filter>KronexSources\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_Radar.cpp">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_GlowHack.cpp">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="C_CH_MaterialHack.cpp">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C_CH_BunnyHop.h">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Cheat.h">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Player.h">
+      <Filter>KronexSources\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_Aimbot.h">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_Ceiling.h">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_NoRecoil.h">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_ESP.h">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_FakeLag.h">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_AutoRespInSurv.h">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="GetVirtualFn.h">
+      <Filter>KronexSources\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>KronexSources\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobalVarsBase.h">
+      <Filter>KronexSources\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_NameStealer.h">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_TeleportAndCrush.h">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>KronexSources\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Patch.h">
+      <Filter>KronexSources\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="C_VMTHook.h">
+      <Filter>KronexSources\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="C_SHA256.h">
+      <Filter>KronexSources\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware.h">
+      <Filter>KronexSources\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_LicenseChecker.h">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_ConfigExecuter.h">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_VMTHookMgr.h">
+      <Filter>KronexSources\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CheatMgr.h">
+      <Filter>KronexSources\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CVarMgr.h">
+      <Filter>KronexSources\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="C_EntityMgr.h">
+      <Filter>KronexSources\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="C_PatchMgr.h">
+      <Filter>KronexSources\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="IVEngineClient.h">
+      <Filter>KronexSources\SDK\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CFG_ACCOUNTS.h">
+      <Filter>KronexSources\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="CONFIG.h">
+      <Filter>KronexSources\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFINITIONS.h">
+      <Filter>KronexSources\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="KronexMain.h">
+      <Filter>KronexSources\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_Radar.h">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_GlowHack.h">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CH_MaterialHack.h">
+      <Filter>KronexSources\Cheats</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\kronex.cfg">
+      <Filter>KronexSources\Main</Filter>
+    </None>
+  </ItemGroup>
+</Project>

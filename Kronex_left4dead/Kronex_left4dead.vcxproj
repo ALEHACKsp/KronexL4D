@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{9C017330-8043-4A06-B534-2DBB94ED0BF8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Kronex_left4dead</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <PlatformToolset>v141</PlatformToolset>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <EmbedManifest>false</EmbedManifest>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>L4D1;WIN32;COMPILER_MSVC;COMPILER_MSVC32;NDEBUG;_WINDOWS;_USRDLL;SDK_EXPORTS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(SolutionDir)\hl2sdk-l4d\utils\xwad;$(SolutionDir)\hl2sdk-l4d\utils\vvis_launcher;$(SolutionDir)\hl2sdk-l4d\utils\vvis;$(SolutionDir)\hl2sdk-l4d\utils\vtfdiff;$(SolutionDir)\hl2sdk-l4d\utils\vtf2tga;$(SolutionDir)\hl2sdk-l4d\utils\vrad_launcher;$(SolutionDir)\hl2sdk-l4d\utils\vrad;$(SolutionDir)\hl2sdk-l4d\utils\vprojtomake;$(SolutionDir)\hl2sdk-l4d\utils\vmpi;$(SolutionDir)\hl2sdk-l4d\utils\vice;$(SolutionDir)\hl2sdk-l4d\utils\vbsp;$(SolutionDir)\hl2sdk-l4d\utils\tgadiff;$(SolutionDir)\hl2sdk-l4d\utils\smdlexp;$(SolutionDir)\hl2sdk-l4d\utils\qc_eyes;$(SolutionDir)\hl2sdk-l4d\utils\phonemeextractor;$(SolutionDir)\hl2sdk-l4d\utils\nvtristriplib;$(SolutionDir)\hl2sdk-l4d\utils\motionmapper;$(SolutionDir)\hl2sdk-l4d\utils\height2normal;$(SolutionDir)\hl2sdk-l4d\utils\glview;$(SolutionDir)\hl2sdk-l4d\utils\demoinfo;$(SolutionDir)\hl2sdk-l4d\utils\common;$(SolutionDir)\hl2sdk-l4d\utils\captioncompiler;$(SolutionDir)\hl2sdk-l4d\utils;$(SolutionDir)\hl2sdk-l4d\vgui2\vgui_controls;$(SolutionDir)\hl2sdk-l4d\vgui2;$(SolutionDir)\hl2sdk-l4d\common\GameUI;$(SolutionDir)\hl2sdk-l4d\common\xbox;$(SolutionDir)\hl2sdk-l4d\common;$(SolutionDir)\hl2sdk-l4d\game\shared;$(SolutionDir)\hl2sdk-l4d\game\server;$(SolutionDir)\hl2sdk-l4d\game\client;$(SolutionDir)\hl2sdk-l4d\game;$(SolutionDir)\hl2sdk-l4d\public\zip;$(SolutionDir)\hl2sdk-l4d\public\vtf;$(SolutionDir)\hl2sdk-l4d\public\vphysics;$(SolutionDir)\hl2sdk-l4d\public\VGuiMatSurface;$(SolutionDir)\hl2sdk-l4d\public\vgui_controls;$(SolutionDir)\hl2sdk-l4d\public\vgui;$(SolutionDir)\hl2sdk-l4d\public\vaudio;$(SolutionDir)\hl2sdk-l4d\public\unitlib;$(SolutionDir)\hl2sdk-l4d\public\unicode;$(SolutionDir)\hl2sdk-l4d\public\tools;$(SolutionDir)\hl2sdk-l4d\public\toolframework;$(SolutionDir)\hl2sdk-l4d\public\tier3;$(SolutionDir)\hl2sdk-l4d\public\tier2;$(SolutionDir)\hl2sdk-l4d\public\steam;$(SolutionDir)\hl2sdk-l4d\public\soundsystem;$(SolutionDir)\hl2sdk-l4d\public\SoundEmitterSystem;$(SolutionDir)\hl2sdk-l4d\public\shaderlib;$(SolutionDir)\hl2sdk-l4d\public\scenefilecache;$(SolutionDir)\hl2sdk-l4d\public\phonemeextractor;$(SolutionDir)\hl2sdk-l4d\public\particles;$(SolutionDir)\hl2sdk-l4d\public\p4lib;$(SolutionDir)\hl2sdk-l4d\public\mdllib;$(SolutionDir)\hl2sdk-l4d\public\maya\ValveMaya;$(SolutionDir)\hl2sdk-l4d\public\maya;$(SolutionDir)\hl2sdk-l4d\public\matsys_controls;$(SolutionDir)\hl2sdk-l4d\public\materialsystem;$(SolutionDir)\hl2sdk-l4d\public\keyframe;$(SolutionDir)\hl2sdk-l4d\public\jpeglib;$(SolutionDir)\hl2sdk-l4d\public\inputsystem;$(SolutionDir)\hl2sdk-l4d\public\game\server;$(SolutionDir)\hl2sdk-l4d\public\game\client;$(SolutionDir)\hl2sdk-l4d\public\game;$(SolutionDir)\hl2sdk-l4d\public\g15;$(SolutionDir)\hl2sdk-l4d\public\Friends\AddOns;$(SolutionDir)\hl2sdk-l4d\public\Friends;$(SolutionDir)\hl2sdk-l4d\public\filesystem;$(SolutionDir)\hl2sdk-l4d\public\dmxloader;$(SolutionDir)\hl2sdk-l4d\public\dmserializers;$(SolutionDir)\hl2sdk-l4d\public\demofile;$(SolutionDir)\hl2sdk-l4d\public\datamodel;$(SolutionDir)\hl2sdk-l4d\public\datacache;$(SolutionDir)\hl2sdk-l4d\public\bitmap;$(SolutionDir)\hl2sdk-l4d\public\avi;$(SolutionDir)\hl2sdk-l4d\public\appframework;$(SolutionDir)\hl2sdk-l4d\public\mathlib;$(SolutionDir)\hl2sdk-l4d\public\vstdlib;$(SolutionDir)\hl2sdk-l4d\public\engine;$(SolutionDir)\hl2sdk-l4d\public\tier1;$(SolutionDir)\hl2sdk-l4d\public\tier0;$(SolutionDir)\hl2sdk-l4d\public;$(SolutionDir)\hl2sdk-l4d\tier1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(SolutionDir)\hl2sdk-l4d\lib\public;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>mathlib.lib;tier0.lib;tier1.lib;tier2.lib;tier3.lib;vstdlib.lib;legacy_stdio_definitions.lib;bitmap.lib;choreoobjects.lib;dmxloader.lib;matsys_controls.lib;nvtristrip.lib;particles.lib;raytrace.lib;steam_api.lib;vgui_controls.lib;vmpi.lib;vtf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libc;libcd;libcmt;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <UACUIAccess>true</UACUIAccess>
+      <EnableUAC>false</EnableUAC>
+      <ProgramDatabaseFile />
+    </Link>
+    <Manifest>
+      <VerboseOutput>false</VerboseOutput>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\hl2sdk-l4d\utils\xwad;$(SolutionDir)\hl2sdk-l4d\utils\vvis_launcher;$(SolutionDir)\hl2sdk-l4d\utils\vvis;$(SolutionDir)\hl2sdk-l4d\utils\vtfdiff;$(SolutionDir)\hl2sdk-l4d\utils\vtf2tga;$(SolutionDir)\hl2sdk-l4d\utils\vrad_launcher;$(SolutionDir)\hl2sdk-l4d\utils\vrad;$(SolutionDir)\hl2sdk-l4d\utils\vprojtomake;$(SolutionDir)\hl2sdk-l4d\utils\vmpi;$(SolutionDir)\hl2sdk-l4d\utils\vice;$(SolutionDir)\hl2sdk-l4d\utils\vbsp;$(SolutionDir)\hl2sdk-l4d\utils\tgadiff;$(SolutionDir)\hl2sdk-l4d\utils\smdlexp;$(SolutionDir)\hl2sdk-l4d\utils\qc_eyes;$(SolutionDir)\hl2sdk-l4d\utils\phonemeextractor;$(SolutionDir)\hl2sdk-l4d\utils\nvtristriplib;$(SolutionDir)\hl2sdk-l4d\utils\motionmapper;$(SolutionDir)\hl2sdk-l4d\utils\height2normal;$(SolutionDir)\hl2sdk-l4d\utils\glview;$(SolutionDir)\hl2sdk-l4d\utils\demoinfo;$(SolutionDir)\hl2sdk-l4d\utils\common;$(SolutionDir)\hl2sdk-l4d\utils\captioncompiler;$(SolutionDir)\hl2sdk-l4d\utils;$(SolutionDir)\hl2sdk-l4d\vgui2\vgui_controls;$(SolutionDir)\hl2sdk-l4d\vgui2;$(SolutionDir)\hl2sdk-l4d\common\GameUI;$(SolutionDir)\hl2sdk-l4d\common\xbox;$(SolutionDir)\hl2sdk-l4d\common;$(SolutionDir)\hl2sdk-l4d\game\shared;$(SolutionDir)\hl2sdk-l4d\game\server;$(SolutionDir)\hl2sdk-l4d\game\client;$(SolutionDir)\hl2sdk-l4d\game;$(SolutionDir)\hl2sdk-l4d\public\zip;$(SolutionDir)\hl2sdk-l4d\public\vtf;$(SolutionDir)\hl2sdk-l4d\public\vphysics;$(SolutionDir)\hl2sdk-l4d\public\VGuiMatSurface;$(SolutionDir)\hl2sdk-l4d\public\vgui_controls;$(SolutionDir)\hl2sdk-l4d\public\vgui;$(SolutionDir)\hl2sdk-l4d\public\vaudio;$(SolutionDir)\hl2sdk-l4d\public\unitlib;$(SolutionDir)\hl2sdk-l4d\public\unicode;$(SolutionDir)\hl2sdk-l4d\public\tools;$(SolutionDir)\hl2sdk-l4d\public\toolframework;$(SolutionDir)\hl2sdk-l4d\public\tier3;$(SolutionDir)\hl2sdk-l4d\public\tier2;$(SolutionDir)\hl2sdk-l4d\public\steam;$(SolutionDir)\hl2sdk-l4d\public\soundsystem;$(SolutionDir)\hl2sdk-l4d\public\SoundEmitterSystem;$(SolutionDir)\hl2sdk-l4d\public\shaderlib;$(SolutionDir)\hl2sdk-l4d\public\scenefilecache;$(SolutionDir)\hl2sdk-l4d\public\phonemeextractor;$(SolutionDir)\hl2sdk-l4d\public\particles;$(SolutionDir)\hl2sdk-l4d\public\p4lib;$(SolutionDir)\hl2sdk-l4d\public\mdllib;$(SolutionDir)\hl2sdk-l4d\public\maya\ValveMaya;$(SolutionDir)\hl2sdk-l4d\public\maya;$(SolutionDir)\hl2sdk-l4d\public\matsys_controls;$(SolutionDir)\hl2sdk-l4d\public\materialsystem;$(SolutionDir)\hl2sdk-l4d\public\keyframe;$(SolutionDir)\hl2sdk-l4d\public\jpeglib;$(SolutionDir)\hl2sdk-l4d\public\inputsystem;$(SolutionDir)\hl2sdk-l4d\public\game\server;$(SolutionDir)\hl2sdk-l4d\public\game\client;$(SolutionDir)\hl2sdk-l4d\public\game;$(SolutionDir)\hl2sdk-l4d\public\g15;$(SolutionDir)\hl2sdk-l4d\public\Friends\AddOns;$(SolutionDir)\hl2sdk-l4d\public\Friends;$(SolutionDir)\hl2sdk-l4d\public\filesystem;$(SolutionDir)\hl2sdk-l4d\public\dmxloader;$(SolutionDir)\hl2sdk-l4d\public\dmserializers;$(SolutionDir)\hl2sdk-l4d\public\demofile;$(SolutionDir)\hl2sdk-l4d\public\datamodel;$(SolutionDir)\hl2sdk-l4d\public\datacache;$(SolutionDir)\hl2sdk-l4d\public\bitmap;$(SolutionDir)\hl2sdk-l4d\public\avi;$(SolutionDir)\hl2sdk-l4d\public\appframework;$(SolutionDir)\hl2sdk-l4d\public\mathlib;$(SolutionDir)\hl2sdk-l4d\public\vstdlib;$(SolutionDir)\hl2sdk-l4d\public\engine;$(SolutionDir)\hl2sdk-l4d\public\tier1;$(SolutionDir)\hl2sdk-l4d\public\tier0;$(SolutionDir)\hl2sdk-l4d\public;$(SolutionDir)\hl2sdk-l4d\tier1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>L4D1;WIN32;COMPILER_MSVC;COMPILER_MSVC32;DEBUG;_WINDOWS;_USRDLL;SDK_EXPORTS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)\hl2sdk-l4d\lib\public;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>mathlib.lib;tier0.lib;tier1.lib;tier2.lib;tier3.lib;vstdlib.lib;legacy_stdio_definitions.lib;bitmap.lib;choreoobjects.lib;dmxloader.lib;matsys_controls.lib;nvtristrip.lib;particles.lib;raytrace.lib;steam_api.lib;vgui_controls.lib;vmpi.lib;vtf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libc;libcd;libcmt;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C_Cheat.cpp" />
+    <ClCompile Include="C_CheatMgr.cpp" />
+    <ClCompile Include="C_CH_Aimbot.cpp" />
+    <ClCompile Include="C_CH_BunnyHop.cpp" />
+    <ClCompile Include="C_CH_Ceiling.cpp" />
+    <ClCompile Include="C_CH_ConfigExecuter.cpp" />
+    <ClCompile Include="C_CH_ESP.cpp" />
+    <ClCompile Include="C_CH_FakeLag.cpp" />
+    <ClCompile Include="C_CH_GlowHack.cpp" />
+    <ClCompile Include="C_CH_LicenseChecker.cpp" />
+    <ClCompile Include="C_CH_MaterialHack.cpp" />
+    <ClCompile Include="C_CH_NameStealer.cpp" />
+    <ClCompile Include="C_CH_NoRecoil.cpp" />
+    <ClCompile Include="C_CH_AutoRespInSurv.cpp" />
+    <ClCompile Include="C_CH_Radar.cpp" />
+    <ClCompile Include="C_CH_TeleportAndCrush.cpp" />
+    <ClCompile Include="C_CVarMgr.cpp" />
+    <ClCompile Include="C_EntityMgr.cpp" />
+    <ClCompile Include="C_SHA256.cpp" />
+    <ClCompile Include="C_VMTHook.cpp" />
+    <ClCompile Include="C_VMTHookMgr.cpp" />
+    <ClCompile Include="C_Patch.cpp" />
+    <ClCompile Include="C_PatchMgr.cpp" />
+    <ClCompile Include="C_Player.cpp" />
+    <ClCompile Include="Hardware.cpp" />
+    <ClCompile Include="Hooks.cpp" />
+    <ClCompile Include="IVEngineClient.cpp" />
+    <ClCompile Include="KronexMain.cpp" />
+    <ClCompile Include="Utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CFG_ACCOUNTS.h" />
+    <ClInclude Include="CGlobalVarsBase.h" />
+    <ClInclude Include="CONFIG.h" />
+    <ClInclude Include="C_Cheat.h" />
+    <ClInclude Include="C_CheatMgr.h" />
+    <ClInclude Include="C_CH_Aimbot.h" />
+    <ClInclude Include="C_CH_BunnyHop.h" />
+    <ClInclude Include="C_CH_Ceiling.h" />
+    <ClInclude Include="C_CH_ConfigExecuter.h" />
+    <ClInclude Include="C_CH_ESP.h" />
+    <ClInclude Include="C_CH_FakeLag.h" />
+    <ClInclude Include="C_CH_GlowHack.h" />
+    <ClInclude Include="C_CH_LicenseChecker.h" />
+    <ClInclude Include="C_CH_MaterialHack.h" />
+    <ClInclude Include="C_CH_NameStealer.h" />
+    <ClInclude Include="C_CH_NoRecoil.h" />
+    <ClInclude Include="C_CH_AutoRespInSurv.h" />
+    <ClInclude Include="C_CH_Radar.h" />
+    <ClInclude Include="C_CH_TeleportAndCrush.h" />
+    <ClInclude Include="C_CVarMgr.h" />
+    <ClInclude Include="C_EntityMgr.h" />
+    <ClInclude Include="C_SHA256.h" />
+    <ClInclude Include="C_VMTHook.h" />
+    <ClInclude Include="C_VMTHookMgr.h" />
+    <ClInclude Include="C_Patch.h" />
+    <ClInclude Include="C_PatchMgr.h" />
+    <ClInclude Include="C_Player.h" />
+    <ClInclude Include="DEFINITIONS.h" />
+    <ClInclude Include="GetVirtualFn.h" />
+    <ClInclude Include="Hardware.h" />
+    <ClInclude Include="Hooks.h" />
+    <ClInclude Include="IVEngineClient.h" />
+    <ClInclude Include="KronexMain.h" />
+    <ClInclude Include="Utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\kronex.cfg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
